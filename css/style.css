@@ -1,0 +1,76 @@
+html,
+body {
+  font-family: "Lato", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Utility class */
+.py-1 {
+  padding-left: 5rem;
+}
+
+.py-2 {
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+.container {
+  padding: 2.5rem;
+}
+
+.header-container {
+  display: flex;
+  flex: 3;
+}
+
+#profile img {
+  transform: rotate(180deg);
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.personal-container {
+  display: flex;
+  flex-basis: 300px;
+}
+
+.title {
+  width: 250px;
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  flex-basis: 300px;
+}
+
+.skill-list {
+  display: flex;
+  flex-grow: 1;
+}
+
+.skill-set-1,
+.skill-set-2,
+.skill-set-3 {
+  flex-grow: 1;
+}
+
+.experience-container {
+  display: flex;
+  flex-basis: 300px;
+}
+
+.education-container {
+  display: flex;
+  flex-basis: 300px;
+}
+
+.hobbies-container {
+  display: flex;
+  flex-basis: 300px;
+}
