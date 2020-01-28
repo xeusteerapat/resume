@@ -1,0 +1,75 @@
+@media (max-width: 500px) {
+  .header-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #profile {
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  #fullname {
+    padding: 0 0 0.75rem 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #contact {
+    padding: 0 0 1rem 0;
+    margin: 0 auto;
+  }
+
+  .personal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .personal-details {
+    padding-left: 0;
+  }
+
+  .title {
+    text-align: center;
+    padding-bottom: 0.5rem;
+    flex-shrink: 0;
+    margin: 0 auto;
+  }
+
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skill-list {
+    padding-left: 0;
+  }
+
+  .experience-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .experience-details {
+    padding-left: 0;
+  }
+
+  .education-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .education-details {
+    padding-left: 0;
+  }
+
+  .hobbies-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hobbies-details {
+    padding-left: 0;
+  }
+}

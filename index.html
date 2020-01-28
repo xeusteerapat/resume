@@ -9,6 +9,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="css/mobile.css"
+    />
     <title>Teerapat Prommarak</title>
   </head>
   <body>
@@ -18,19 +23,25 @@
           <div id="profile">
             <img src="img/resume.jpg" alt="" />
           </div>
-          <div id="fullname">
+          <div id="fullname" class="py-1">
             <h1>Teerapat Prommarak</h1>
             <h2>Software Developer</h2>
           </div>
-          <div id="contact">
+          <div id="contact" class="py-1">
             <ul>
               <li>email: xeus085@gmail.com</li>
-              <li>website: xeusteerapat.github.io</li>
+              <li>
+                website:
+                <a href="https://xeusteerapat.github.io/" target="_blank"
+                  >xeusteerapat.github.io</a
+                >
+              </li>
               <li>mobile: 010-001-1100</li>
             </ul>
           </div>
         </div>
       </header>
+      <hr />
 
       <!-- Personal profile -->
       <section id="personal" class="py-2">
@@ -39,19 +50,16 @@
             <h2>Personal Profile</h2>
           </div>
           <div class="personal-details py-1">
-            <ul>
-              <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-                laboriosam cumque aspernatur officiis unde. Quo, dolor!
-                Doloremque sapiente, rem obcaecati laudantium, dolorem impedit
-                placeat sit aperiam nulla, earum rerum? Facilis atque eligendi
-                voluptatibus officia distinctio ad tempora doloremque est neque?
-              </li>
-            </ul>
+            <p>
+              A Software Developer graduated from Coding Bootcamp. Proficient
+              with HTML, CSS and JavaScript including with cutting edge web
+              frameworks. Strong problem-solving skills. Strong communication
+              skills both verbal and writing.
+            </p>
           </div>
         </div>
       </section>
-
+      <hr />
       <!-- Key skills -->
       <section id="skills" class="py-2">
         <div class="skills-container">
@@ -68,9 +76,9 @@
             </div>
             <div class="skill-set-2">
               <ul>
-                <li>React JS</li>
-                <li>blah</li>
-                <li>blah</li>
+                <li>React</li>
+                <li>Angular</li>
+                <li>Vue</li>
               </ul>
             </div>
             <div class="skill-set-3">
@@ -83,7 +91,7 @@
           </div>
         </div>
       </section>
-
+      <hr />
       <!-- Work Experience -->
       <section id="experience" class="py-2">
         <div class="experience-container">
@@ -95,27 +103,29 @@
             <h3 class="duration">April 2008 - May 2011</h3>
             <ul>
               <li>Field engineer</li>
-              <li>Construction works</li>
+              <li>Supervised structural and piping works</li>
               <li>Report to project engineer</li>
             </ul>
             <h2>Mechanical Engineering</h2>
             <h3 class="duration">November 2012 - April 2014</h3>
             <ul>
-              <li>Field engineer</li>
-              <li>Construction works</li>
-              <li>Report to project engineer</li>
+              <li>Research Assistant</li>
+              <li>Research and develop Biomass Gasifier prototype</li>
+              <li>Testing and prepare data for large scale reactor.</li>
             </ul>
             <h2>Samsung Engineering Thailand</h2>
             <h3 class="duration">Oct 2014 - Jan 2020</h3>
             <ul>
-              <li>Field engineer</li>
-              <li>Construction works</li>
-              <li>Report to project engineer</li>
+              <li>Engineer</li>
+              <li>Setup computer for 3D CAD system</li>
+              <li>Install and maintain 3D CAD software</li>
+              <li>Create drawings template based on client requirements</li>
+              <li>Provide technical support for users</li>
             </ul>
           </div>
         </div>
       </section>
-
+      <hr />
       <!-- Education -->
       <section id="education" class="py-2">
         <div class="education-container">
@@ -124,11 +134,11 @@
           </div>
           <div class="education-details py-1">
             <h2>Chiang Mai University</h2>
-            <h3>Bachelors degree Mechanical Engineering</h3>
+            <h3>Bachelors degree of Mechanical Engineering</h3>
           </div>
         </div>
       </section>
-
+      <hr />
       <!-- Hobbies -->
       <section id="hobbies" class="py-2">
         <div class="hobbies-container">

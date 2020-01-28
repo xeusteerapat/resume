@@ -24,7 +24,13 @@ body {
 
 .header-container {
   display: flex;
-  flex: 3;
+  flex-basis: 300px;
+}
+
+#profile {
+  flex-shrink: 0;
+  padding-bottom: 1rem;
+  padding-left: 2.5rem;
 }
 
 #profile img {
@@ -32,6 +38,12 @@ body {
   border-radius: 50%;
   width: 150px;
   height: 150px;
+}
+
+#fullname,
+#contact {
+  padding-left: 7rem;
+  padding-top: 3rem;
 }
 
 .personal-container {
@@ -42,6 +54,7 @@ body {
 .title {
   width: 250px;
   text-align: center;
+  flex-shrink: 0;
 }
 
 .skills-container {
@@ -63,6 +76,15 @@ body {
 .experience-container {
   display: flex;
   flex-basis: 300px;
+}
+
+.experience-details ul {
+  padding-bottom: 1rem;
+}
+
+.duration {
+  padding-bottom: 0.5rem;
+  font-size: italic;
 }
 
 .education-container {
