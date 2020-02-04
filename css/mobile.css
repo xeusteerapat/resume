@@ -20,6 +20,11 @@
     margin: 0 auto;
   }
 
+  .social {
+    padding-top: 1rem;
+    text-align: center;
+  }
+
   .personal-container {
     display: flex;
     flex-direction: column;

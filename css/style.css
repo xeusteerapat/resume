@@ -46,6 +46,17 @@ body {
   padding-top: 3rem;
 }
 
+.social {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.social li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 1.5rem;
+}
+
 .personal-container {
   display: flex;
   flex-basis: 300px;
@@ -84,7 +95,7 @@ body {
 
 .duration {
   padding-bottom: 0.5rem;
-  font-size: italic;
+  font-style: italic;
 }
 
 .education-container {
